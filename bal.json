@@ -1,0 +1,70 @@
+{
+  "description": "SUCCESS",
+  "responseCode": "0",
+  "data": {
+    "product": "Balance Sheet",
+    "asOnDate": "2019-09-02T18:30:00.000+0000",
+    "assetsDto": {
+      "total": 1520000.0,
+      "headsList": [
+        {
+          "name": "Current Assets",
+          "total": 1000000.0,
+          "breakupsList": [
+            {
+              "name": "Current Assets",
+              "total": 760000.0
+            },
+            {
+              "name": "Bank Accounts",
+              "total": 240000.0
+            }
+          ]
+        },
+        {
+          "name": "Fixed Assets",
+          "total": 520000.0,
+          "breakupsList": [
+            {
+              "name": "Fixed Assets",
+              "total": 520000.0
+            }
+          ]
+        }
+      ]
+    },
+    "liabilitiesDto": {
+      "total": 4317200.0,
+      "headsList": [
+        {
+          "name": "Branch Division",
+          "total": 670000.0,
+          "breakupsList": [
+            {
+              "name": "Branch Division",
+              "total": 670000.0
+            }
+          ]
+        },
+        {
+          "name": "Loan(Liability)",
+          "total": 3647200.0,
+          "breakupsList": [
+            {
+              "name": "Bank OD/CC A/C",
+              "total": 7200.0
+            },
+            {
+              "name": "Secured Loans",
+              "total": 3640000.0
+            }
+          ]
+        }
+      ],
+      "netProfit": {
+        "name": "Profit & Loss A/c",
+        "total": -2797200.0
+      }
+    }
+  }
+}

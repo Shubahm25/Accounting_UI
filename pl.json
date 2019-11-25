@@ -1,0 +1,129 @@
+{
+    "description": "SUCCESS",
+    "responseCode": "0",
+    "data": {
+        "product": "Profit And Loss Account",
+        "asOnDate": "2019-09-16T18:30:00.000+0000",
+        "debitDto": {
+            "finaltotal": 100000.0,
+            "debitUpper": [
+                {
+                    "total": 100000.0,
+                    "headsList": [
+                        {
+                            "name": "Purchase Account",
+                            "total": 40000.0,
+                            "groupList": [
+                                {
+                                    "name": "Purchase Account",
+                                    "amount": 40000.0,
+                                    "debitUperLedgerList": [
+                                        {
+                                            "name": "Purchase Account",
+                                            "amount": 40000.0
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Direct Expenses",
+                            "total": 20000.0,
+                            "groupList": [
+                                {
+                                    "name": "Expenses (Direct)",
+                                    "amount": 20000.0,
+                                    "debitUperLedgerList": [
+                                        {
+                                            "name": "Salary Account",
+                                            "amount": 20000.0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "grossProfit": {
+                        "name": "Gross Profit/ (Loss) c/o",
+                        "total": 40000.0
+                    },
+                    "totalHeadAmount": 60000.0
+                }
+            ],
+            "debitLower": [
+                {
+                    "total": 40000.0,
+                    "headsList": [
+                        {
+                            "name": "Indirect Expenses",
+                            "total": 7500.0,
+                            "groupList": [
+                                {
+                                    "name": "Expenses (Indirect)",
+                                    "amount": 7500.0,
+                                    "debitLowerLedgerList": [
+                                        {
+                                            "name": "Printing & Stationery",
+                                            "amount": 2500.0
+                                        },
+                                        {
+                                            "name": "Repair & Maintenance (Dr.)",
+                                            "amount": 5000.0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "netProfit": {
+                        "name": "Net Profit/ (Loss)",
+                        "total": 32500.0
+                    },
+                    "totalHeadAmount": 7500.0
+                }
+            ]
+        },
+        "creditDto": {
+            "finaltotal": 100000.0,
+            "creditUpperList": [
+                {
+                    "total": 100000.0,
+                    "headslist": [
+                        {
+                            "name": "Sales Account",
+                            "total": 100000.0,
+                            "groupList": [
+                                {
+                                    "name": "Sales Account",
+                                    "amount": 100000.0,
+                                    "creditUperLedgerList": [
+                                        {
+                                            "name": "Membership fees",
+                                            "amount": 100000.0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "creditLowerList": [
+                {
+                    "total": 40000.0,
+                    "headsDto": [
+                        {
+                            "name": null,
+                            "total": 0.0,
+                            "groupList": null,
+                            "grossProfitLoss": {
+                                "name": "Gross Profit/(Loss) b/f",
+                                "total": 40000.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

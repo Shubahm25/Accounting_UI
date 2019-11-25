@@ -1,0 +1,101 @@
+{
+  "product": "Profit & Loss A/c",
+  "dateFrom": "01/04/2019",
+  "dateTo": "31/08/2019",
+  "debit": {
+    "finalTotal": 40000,
+    "debitUpper": {
+      "total": 100000,
+      "heads": [
+        {
+          "name": "Purchase Accounts",
+          "total": 40000,
+          "breakup": [
+            {
+              "name": "Purchases",
+              "amount": 40000
+            }
+          ]
+        },
+        {
+          "name": "Direct Expenses",
+          "total": 20000,
+          "breakup": [
+            {
+              "name": "Salary Account",
+              "amount": 19000
+            },
+            {
+              "name": "Conveyance",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "name": "Gross Profit/ (Loss) c/o",
+          "total": 40000
+        }
+      ]
+    },
+    "debitLower": {
+      "total": 40000,
+      "heads": [
+        {
+          "name": "Indirect Expenses",
+          "total": 7500,
+          "breakup": [
+            {
+              "name": "Printing & Stationery",
+              "amount": 2500
+            },
+            {
+              "name": "Repair & Maintenance",
+              "amount": 5000
+            }
+          ]
+        },
+        {
+          "name": "Net Profit/ (Loss)",
+          "total": 325000
+        }
+      ]
+    }
+  },
+  "credit": {
+    "finalTotal": 40000,
+    "creditUpper": {
+      "total": 100000,
+      "heads": [
+        {
+          "name": "Sales Accounts",
+          "total": 100000,
+          "breakup": [
+            {
+              "name": "Membership Fees",
+              "amount": 100000
+            }
+          ]
+        }
+      ]
+    },
+    "creditLower": {
+      "total": 40000,
+      "heads": [
+        {
+          "name": "Gross Profit/(Loss) b/f",
+          "total": 40000
+        },
+        {
+          "name": "Indirect Incomes",
+          "total": 0,
+          "breakup": [
+            {
+              "name": "Income Indirect",
+              "amount": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
